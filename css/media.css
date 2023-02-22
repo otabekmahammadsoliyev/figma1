@@ -1,0 +1,132 @@
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+  nav .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav .container .right {
+    flex-wrap: wrap;
+  }
+  .two .container .botomm {
+    flex-wrap: wrap;
+  }
+  .two .container .botomm .box {
+    width: 65%;
+    font-size: 17px;
+    text-align: center;
+    /*  */
+  }
+  .two .container .botomm .box .imgBox {
+    background-color: rgb(217, 212, 212);
+    margin: 40px 0;
+  }
+  .five .container .a .right,
+  .five .container .a .left {
+    width: 90%;
+  }
+  .sex .container .bax .qa {
+    padding: 15px;
+  }
+  .botom form input {
+    width: 300px;
+  }
+  .five .container .a .left {
+    border-bottom: none;
+  }
+  .icon2 {
+    display: block;
+  }
+  .icon1 {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+  .active2 {
+    display: none;
+  }
+}
+/* ////////////// */
+
+@media screen and (min-width: 425px) and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  nav .container {
+    gap: 10px;
+  }
+  nav .container .right {
+    flex-wrap: wrap;
+  }
+  .two .container .botomm {
+    flex-wrap: wrap;
+  }
+  .two .container .botomm .box {
+    width: 65%;
+    font-size: 17px;
+    text-align: center;
+    /*  */
+  }
+  .two .container .botomm .box .imgBox {
+    background-color: rgb(217, 212, 212);
+    margin: 40px 0;
+  }
+  .five .container .a .right,
+  .five .container .a .left {
+    width: 90%;
+  }
+  .sex .container .bax .qa {
+    padding: 15px;
+  }
+  .botom form input {
+    width: 300px;
+  }
+  .five .container .a .left {
+    border-bottom: none;
+  }
+  .icon2 {
+    display: block;
+  }
+  .icon1 {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+  .active2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+
+  nav .container .right {
+    flex-wrap: wrap;
+  }
+
+  .two .container .botomm .box h1 {
+    font-size: 18px;
+  }
+  .two .container .botomm .box p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
